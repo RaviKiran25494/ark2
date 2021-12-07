@@ -33,7 +33,7 @@ padding-inline-start: 20px ;
 
 }
 .paragrap2 {
-	font-size: 12px;
+	font-size: 13px;
 	line-height: 22px;opacity: 0.9;
 }
 .knowmore:hover{
@@ -259,6 +259,7 @@ font-size: 11px !important;;margin: 2px;
 		background: black;
 		padding: 10%;
 		border-radius: 5%;
+		
 	}
 .block_testimonal .testimonals{
 	width: 20px !important;

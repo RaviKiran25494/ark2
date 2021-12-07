@@ -19,7 +19,7 @@
       ------------------***********------------->
          <nav class="navbar navbar-expand-md fixed-top ">
             <div class="container">
-               <a class="navbar-brand" href="#"><img src="images/logo.png" width="100px"/></a>
+               <a class="navbar-brand" href="#"><img src="static/static/images/logo.png" width="100px"/></a>
                <button aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler"
                   data-target="#navbarCollapse" data-toggle="collapse" type="button">
                <span class="fa fa-bars text-white"></span>
@@ -85,7 +85,7 @@
                   </p>
                </div>
                <div class="col-sm-12 col-md-6">
-                  <img src="images/arkimage01.jpg" alt="arkimage" width="100%"/>
+                  <img src="static/images/arkimage01.jpg" alt="arkimage" width="100%"/>
                </div>
             </div>
          </div>
@@ -117,77 +117,6 @@
      <!----------------***********--------------
                           Footer       
       ------------------***********------------->
-      <footer>
-         <div class="container p-5">
-            <div class="row">
-               <div class="col-sm-12 col-md-4">
-                  <img src="images/logo.png" width="60px" alt="footerlogo"/>
-                  <p class="paragrap text-white">
-                     Ark Group's strong portfolio of residential, industrial and institutional projectsstand testimony to delivering large-scale projects with robust engineering & innovation.
-                  </p>
-               </div>
-               <div class="col-sm-6 col-md-2">
-                  <p class="color ">VERTICALS</p>
-                  <ul class="footnav paragrap">
-                     <li><a href="#" >Real Estate </a></li>
-                     <li><a href="#" >Infra  </a></li>
-                     <li><a href="#" >Agro  </a></li>
-                     <li><a href="#" >Foundation  </a></li>
-                  </ul>
-               </div>
-               <div class="col-sm-6 col-md-2">
-                  <p class="color ">QUICK LINKS</p>
-                  <ul class="footnav paragrap">
-                     <li><a href="#" > Home </a></li>
-                     <li><a href="#" >About  </a></li>
-                     <li><a href="#" >Media  </a></li>
-                     <li><a href="#" >Blog  </a></li>
-                  </ul>
-               </div>
-               <div class="col-sm-6 col-md-2">
-                  <p class="color "> PROJECTS</p>
-                  <ul class="footnav paragrap">
-                     <li><a href="#" > Hamptons </a></li>
-                     <li><a href="#" >Ark Cloud City  </a></li>
-                     <li><a href="#" >Ark Hema  </a></li>
-                     <li><a href="#" >Ark Homes  </a></li>
-                     <li><a href="#" > Ark Serene County   </a></li>
-                     <li><a href="#" >Ark Aptha</a></li>
-                  </ul>
-               </div>
-               <div class="col-sm-6 col-md-2">
-                  <p class="color "> OTHER LINKS</p>
-                  <ul class="footnav paragrap">
-                     <li><a href="#" > Privacy Policy </a></li>
-                     <li><a href="#" >Terms </a></li>
-                     <li><a href="#" >Ark Hema  </a></li>
-                     <li><a href="#" >Ark Homes  </a></li>
-                  </ul>
-               </div>
-            </div>
-         </div>
-       
-            <hr class="bg-white"/>
-            <div class="container p-5">
-            <div class="row">
-               <p class="paragrap m-auto text-white"> ©2021 Copyright</p>
-            </div>
-         </div>
-      </footer>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-     
-     
-     <script>
-         $(window).scroll(function(){
-             if ($(this).scrollTop() > 50) {
-                $("nav").addClass("shrink");
-                $(".collapse").collapse("hide");
-             } else {
-                $("nav").removeClass("shrink");
-             }
-         });
-      </script>
+     {% include 'footer.html' %}
    </body>
 </html>
